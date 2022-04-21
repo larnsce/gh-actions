@@ -10,8 +10,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - name: Setup R
-      uses: r-lib/actions/setup-r@master
     - name: Install packages
       run: |
         R -e 'install.packages("quarto")'

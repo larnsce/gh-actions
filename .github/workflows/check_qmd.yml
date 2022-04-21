@@ -3,7 +3,7 @@ on:
     branches: main 
 name: Check Repo
 jobs:
-  check-rmd:
+  check-qmd:
     runs-on: ubuntu-latest
     container:
       image: rocker/tidyverse:latest
